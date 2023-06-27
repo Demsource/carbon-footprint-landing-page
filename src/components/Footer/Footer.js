@@ -20,7 +20,7 @@ const Footer = ({ displayEmpoweredByPrifina, displayBackToTop }) => {
           )}
           <Image
             display={{ base: "none", md: "block" }}
-            src="carbon-footprint-landing-page/img/empowered-by-prifina.png"
+            src="/carbon-footprint-landing-page/img/empowered-by-prifina.png"
             alt="Empowered by prifina"
             height={{ base: "40px", lg: "60px" }}
           />{" "}

@@ -15,7 +15,7 @@ const HowItWorks = ({ sectionHeading }) => {
       <FeatureCard
         headerContent="Calculating your carbon footprint"
         textContent="Our app offers real-time tracking of your carbon emissions. As you make changes to your lifestyle, such as using public transportation, switching to renewable energy sources, or adopting eco-friendly habits, the app dynamically updates your carbon footprint."
-        imageURL="carbon-footprint-landing-page/img/calculating-cf.jpg"
+        imageURL="/carbon-footprint-landing-page/img/calculating-cf.jpg"
         imageDesc="Calculating carbon footprint"
         mb="85px"
       />
@@ -23,14 +23,14 @@ const HowItWorks = ({ sectionHeading }) => {
         headerContent="Leader board"
         textContent="The Leaderboard is not just about personal progress—it's about friendly competition too! Challenge yourself by competing with friends, family, or other app users to see who can achieve the most significant reduction in their carbon footprint. By comparing your progress with others, you can spur each other on, exchange tips and ideas, and create a positive atmosphere of shared environmental responsibility."
         imageFirst={true}
-        imageURL="carbon-footprint-landing-page/img/leader-board.jpg"
+        imageURL="/carbon-footprint-landing-page/img/leader-board.jpg"
         imageDesc="Leader board"
         mb="85px"
       />
       <FeatureCard
         headerContent="Suggest solutions"
         textContent="Carbon Footprint app is all about to inspire you to offset carbon footprint with general globally recognized solutions as well as personalized insights based on your daily activities. Become aware which of your actions might contribute to environmental well-being and sustainable future. Make a difference by integrating eco-friendly behaviors into your habitual life."
-        imageURL="carbon-footprint-landing-page/img/suggest-solutions.jpg"
+        imageURL="/carbon-footprint-landing-page/img/suggest-solutions.jpg"
         imageDesc="Suggest solutions"
       />
     </Box>
