@@ -77,7 +77,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  logo: "/logo.png",
+  logo: "carbon-footprint-landing-page/logo.png",
   slogan: "Embrace your eco impact",
   sectionNavList: {
     names: ["About", "How", "FAQ"],

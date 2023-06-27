@@ -1,4 +1,5 @@
 {
+  "homepage": "https://demsource.github.io/carbon-footprint-landing-page",
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -59,6 +62,7 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "chromatic": "^6.19.9",
     "eslint-plugin-storybook": "^0.6.12",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.21",
     "webpack": "^5.87.0"

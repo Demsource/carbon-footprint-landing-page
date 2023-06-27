@@ -15,12 +15,7 @@ const DescWithImage = ({
   return (
     <Flex align="center" justify="space-between" {...rest}>
       {imageLeft && (
-        <Image
-          src="/img/carbon-footprint.png"
-          alt="Footprint"
-          mx={{ lg: "5%" }}
-          maxW="30%"
-        />
+        <Image src={imageURL} alt={imageDesc} mx={{ lg: "5%" }} maxW="30%" />
       )}
       <Box w="65%" mr="5%">
         <SectionHeading
@@ -58,6 +53,6 @@ DescWithImage.defaultProps = {
   subHeaderText:
     "Here we aim to help you measure your carbon footprint and take steps to reduce your environmental impact",
   desc: "The increasing global population, rising consumerism, and growing demand for energy have led to significant increases in greenhouse gas emissions over the last century. These emissions are responsible for climate change, which is causing rising temperatures, more frequent and severe weather events, and other environmental challenges that threaten the health and well-being of people and ecosystems around the world.  ",
-  imageURL: "/img/carbon-footprint.png",
+  imageURL: "carbon-footprint-landing-page/img/carbon-footprint.png",
   imageDesc: "Footprint",
 };
