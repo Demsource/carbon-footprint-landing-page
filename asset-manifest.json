@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/carbon-footprint-landing-page/static/js/main.51c9712a.js",
+    "main.js": "/carbon-footprint-landing-page/static/js/main.a32f915c.js",
     "index.html": "/carbon-footprint-landing-page/index.html",
-    "main.51c9712a.js.map": "/carbon-footprint-landing-page/static/js/main.51c9712a.js.map"
+    "main.a32f915c.js.map": "/carbon-footprint-landing-page/static/js/main.a32f915c.js.map"
   },
   "entrypoints": [
-    "static/js/main.51c9712a.js"
+    "static/js/main.a32f915c.js"
   ]
 }
